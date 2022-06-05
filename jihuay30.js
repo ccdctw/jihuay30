@@ -39,7 +39,6 @@ let contents = [ ['或許可以來點', 'Sarmale (Cabbage Rolls) ', '白菜卷',
 
                ];
 let content = choice(contents);
-//let content = contents[23];
 let alpha0 = 255;
 let alpha1 = 255;
 let alpha2 = 0;
@@ -58,12 +57,11 @@ let start = function()
   }
 }
 
-const songP = 'assets/yay.mp3';
+const songP = 'yay.mp3';
 
 function preload(){
 
-  img = loadImage('assets/hand.png');
-  //font = loadFont('assets/font.ttf');
+  img = loadImage('hand.png');
 
   isIphone = window.navigator.userAgent.match(/iPad/i) || window.navigator.userAgent.match(/iphone/i);
 
